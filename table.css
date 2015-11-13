@@ -1,7 +1,7 @@
 body { 
 	font-family: arial, sans-serif; 
 	font-size: 100%; 
-	color: blue; 
+	color: black; 
 	background-image: url(images/rr.png); 
 	background-repeat: no-repeat; 
 	background-position: center center; 
@@ -9,10 +9,14 @@ body {
 	background-size: cover; 
 } 
 
-h1 { 
+h1 {
+   	border-top-left-radius: 50%;
+   	border-top-right-radius: 50%;
+   	border-bottom-right-radius: 50%;
+   	border-bottom-left-radius: 50%;   	
 	font-family: courier; 
 	color: #6495ED; 
-	background-color: #562781; 
+	background-color: #582383; 
 	font-size: 1em; 
 	margin: 0.1em; 
 	margin-bottom: 0.3em; 
@@ -24,16 +28,17 @@ h1 {
 } 
 
 h2 { 
-	color: white; 
-	background-color: #090; 
+	color: #6495ED; 
+	background-color: #234; 
 	font-size: 1.5em; 
 	margin: 0; 
+	text-align: center;
 	padding: 0.1em; 
 	padding-left: 1em; 
 } 
 
 h3 { 
-	color: #999; 
+	color: #6495ED; 
 	font-size: 1.25em; 
 } 
 
@@ -45,5 +50,7 @@ img {
 
 
 table { 
-	background-color: #ccc; 
+ 
+	text-align: center;
+	margin: auto;
 }
