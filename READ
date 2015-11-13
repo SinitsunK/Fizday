@@ -5,6 +5,7 @@ Project
 ------base(html)
 ------index(html)
 ------login(html)
+------крч все htmlки
 ---__init__
 ---forms
 ---models
