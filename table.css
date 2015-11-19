@@ -2,7 +2,7 @@ body {
 	font-family: arial, sans-serif; 
 	font-size: 100%; 
 	color: black; 
-	background-image: url(images/rr.png); 
+	background-image: url(images/r.png); 
 	background-repeat: no-repeat; 
 	background-position: center center; 
 	background-attachment: fixed; 
@@ -16,7 +16,7 @@ h1 {
    	border-bottom-left-radius: 50%;   	
 	font-family: courier; 
 	color: #6495ED; 
-	background-color: #582383; 
+	background-color: #2A2957; 
 	font-size: 1em; 
 	margin: 0.1em; 
 	margin-bottom: 0.3em; 
